@@ -1,0 +1,45 @@
+.loginpage-container{
+    background-color: #282c34;
+}
+
+.sign-in{
+    color: #fff;
+    text-align: center;
+}
+
+.form {
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin: 0.7rem 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .form-control > input[type=email]{
+    background-color: #fff;
+    color:#000;
+    border: none;
+  }
+  
+  .form-control > input[type=password]{
+    background-color: #fff;
+    color:#000;
+    border: none;
+  }
+  
+  .form-control > input {
+    padding: 1rem 2rem;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+  }

@@ -1,0 +1,153 @@
+.top-body-container{
+    display: flex;
+    margin: -5% auto;
+    padding-bottom: 30px;
+    height: 100%;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.card{
+    padding: 80px 60px;
+    background-color: #fff;
+    transition: 0.3s;
+    
+}
+
+.card:hover{
+    padding: 75px 60px;
+    background-color: coral;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card > h2{
+    font-family: "Playfair Display", serif;
+}
+
+@media (min-width: 951px) and (max-width: 1080px) {
+    .top-body-container{
+        display: flex;
+        margin: -5% auto;
+        padding-bottom: 30px;
+        height: 100%;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 950px) {
+    .top-body-container{
+        display: flex;
+        margin: -5% auto;
+        padding-bottom: 30px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        margin: 0 auto;
+        width: 60%;
+    }
+    
+    .card{
+        padding: 10px 20px;
+        background-color: #fff;
+        transition: 0.3s;
+        height: 100%;
+    }
+    
+    .card:hover{
+        padding: 5px 20px;
+        background-color: coral;
+        color: #fff;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
+    .card > h2{
+        font-family: "Playfair Display", serif;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 650px) {
+    .top-body-container{
+        display: flex;
+        margin: -5% auto;
+        padding-bottom: 30px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        margin: 0 auto;
+        width: 70%;
+    }
+    
+    .card{
+        padding: 7px 14px;
+        background-color: #fff;
+        transition: 0.3s;
+        height: 100%;
+    }
+    
+    .card:hover{
+        padding: 3px 14px;
+        background-color: coral;
+        color: #fff;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
+    .card > h2{
+        font-size: 18px;
+        font-family: "Playfair Display", serif;
+    }
+
+    .card > div > .p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 419px) {
+    .top-body-container{
+        display: flex;
+        margin: -5% auto;
+        padding-bottom: 30px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        margin: 0 auto;
+        width: 70%;
+    }
+    
+    .card{
+        padding: 7px 14px;
+        background-color: #fff;
+        transition: 0.3s;
+        height: 100%;
+    }
+    
+    .card:hover{
+        padding: 3px 14px;
+        background-color: coral;
+        color: #fff;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
+    .card > h2{
+        font-size: 18px;
+        font-family: "Playfair Display", serif;
+    }
+
+    .card > div > .p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,17 @@
+.archived{
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.archived > .div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: inherit;
+}
+
+.archived > .div-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: inherit;
+}
