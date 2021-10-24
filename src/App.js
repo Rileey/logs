@@ -4,6 +4,7 @@ import Login from './login';
 import ActiveLogs from './ActiveLogs';
 import ArchivedLogs from './ArchivedLogs';
 import ExpiringLogs from './expiringlogs';
+import Cloudinary from './cloudinary';
 import './components/FontAwesomeIcons/fontAwesomIcons'
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route exact path="/expiringlogs">
           <ExpiringLogs />
+        </Route>
+        <Route exact path="/cloudinary">
+          <Cloudinary />
         </Route>
       </Switch>  
     </BrowserRouter>
